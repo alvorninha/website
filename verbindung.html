@@ -1,37 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset= "utf-8">
-        
-        <meta name ="viewport" content ="device-width, initial-scale=1">
-
-        <TITLE>Hosting-Test </TITLE>
-
-        <link rel="stylesheet" href="./css/style.css" />
-
-        <script src="./js/login2.js"> </script>
-
-    </head>
-    
-    <body>
-        <div style = "background : url(https://wallpaperaccess.com/full/124383.jpg)">
-        </div>
-        <div stylebooks = "background : url(https://wallpaperaccess.com/full/124383.jpg)">
-        </div>
-        <div style="width: 500px; height: 200px; background-color: goldenrod;">
-        <b>Bookshop Aufgabe Interface </b>
-        
-        <p> </p> 
-
-
-        <form class="box" action="index.html" methoder="post">
-            <h1>Login</h1>
-            <input type ="text" name = "" placeholder="Benutzername" id="username">
-            <input type ="password" name = "" placeholder="Password" id = "password">
-            <input type="submit" name="" value="Login" onclick="validate()">            
-
-        </form>
-
-    </body>
-    
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+   * {
+      box-sizing: border-box;
+   }
+   body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   nav {
+      font-size: 20px;
+      background-color: rgb(136, 22, 182);
+      color: #cccccc;
+      height: 75px;
+   }
+   ul {
+      position: fixed;
+      right:10px;
+   }
+   ul li {
+      display: inline;
+      padding-right: 30px;
+      font-weight: 500;
+      color: rgb(251, 255, 0);
+   }
+   .logo {
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      float: left;
+      font-size: 30px;
+      padding-left: 20px;
+      padding-top: 20px;
+   }
+   .blog {
+      margin-top: 20px;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 400px;
+   }
+   .post {
+      margin-top: 20px;
+      float: left;
+   }
+   .blogHeader {
+      font-size: 36px;
+      margin-bottom: 20px;
+   }
+   .links {
+      float: right;
+   }
+   .links li {
+      color: black;
+   }
+   footer {
+      color: white;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
+      height: 100px;
+      padding: 20px;
+      background-color: rgb(9, 141, 101);
+      text-align: center;
+   }
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">
+↷ LOGO ↶
+</div>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Contact</li>
+</ul>
+</nav>
+<div class="blog">
+<div class="post">
+<div class="blogHeader">
+<h1>Blog Heading</h1>
+</div>
+<div class="blog-body">
+<p>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt non neque eos eaque veritatis praesentium.
+</p>
+</div>
+</div>
+<div class="links">
+<ul>
+<li>BLOG 2</li>
+<li>BLOG 3</li>
+</ul>
+</div>
+</div>
+<footer>
+Copyright ©
+</footer>
+</body>
 </html>
